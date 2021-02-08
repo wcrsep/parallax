@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			/* Configurações padrões da Página*/
+			body, html {
+				margin: 0;
+				font: 16px "Lato", sans-serif;
+				color: #777;
+				height: 100%;
+			}
+			
+			.conteudo {
+				color: #777;
+				background-color: white;
+				text-align: justify;
+				padding: 50px 80px;
+			}
+
+			h3 {
+				text-transform: uppercase;
+				color: #111;
+				text-align: center;
+			}
+
+			p {
+				margin-bottom: 20px;
+			}
+
+			/* Efeito Parallax */
+
+			.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+				position: relative;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				opacity: 0.7;
+				background-attachment: fixed; /*truque do parallax*/
+			}
+
+			.caixa1{
+				background-image: url(imagens/imagem1.jpg);
+			}
+
+			.caixa2{
+				background-image: url(imagens/imagem2.jpg);
+			}
+
+			.caixa3{
+				background-image: url(imagens/imagem3.jpg);
+			}
+
+			.caixa4{
+				background-image: url(imagens/imagem4.jpg);
+			}
+
+			.caixa5{
+				background-image: url(imagens/imagem5.jpg);
+			}
+
+			.caixa6{
+				background-image: url(imagens/imagem6.jpg);
+			}
+
+			.conteudo-titulo {
+				position: absolute;
+				left: 0;
+				top: 45%;
+				width: 100%;
+				text-align: center;
+			}
+
+			.conteudo-titulo span.titulo {
+				color: #fff;
+				background-color: #111;
+				padding: 18px;
+				font-size: 25px;
+				letter-spacing: 5px; /*espaçamento entre textos*/
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="caixa1">
+			<div class="conteudo-titulo">
+				<span class="titulo">PASSEIO DE BALÕES</span>
+			</div>
+		</div>
+
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus felis, mattis quis cursus non, aliquam a mi. Nullam scelerisque nisl at lorem placerat efficitur. 
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus felis, mattis quis cursus non, aliquam a mi. Nullam scelerisque nisl at lorem placerat efficitur. Integer iaculis turpis quis arcu ultrices ornare. Cras non elit ante. Cras bibendum imperdiet enim, ac tempus metus gravida aliquam. Quisque at ultrices tellus. Praesent faucibus at massa ac mollis. Mauris vel efficitur enim, non varius enim. Nulla non enim est. Nunc sed purus condimentum, pellentesque nisi sed, placerat velit. In quam nibh, pharetra gravida metus eu, fermentum mollis dolor. Nunc lacinia aliquam tristique.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus felis, mattis quis cursus non, aliquam a mi. Nullam scelerisque nisl at lorem placerat efficitur. Integer iaculis turpis quis arcu ultrices ornare. Cras non elit ante. Cras bibendum imperdiet enim, ac tempus metus gravida aliquam. Quisque at ultrices tellus. Praesent faucibus at massa ac mollis. Mauris vel efficitur enim, non varius enim. Nulla non enim est. Nunc sed purus condimentum, pellentesque nisi sed, placerat velit. In quam nibh, pharetra gravida metus eu, fermentum mollis dolor. Nunc lacinia aliquam tristique.
+			</p>
+		</div>
+
+		<div class="caixa2">
+			<div class="conteudo-titulo">
+				<span class="titulo">PEGANDO A ESTRADA</span>
+			</div>
+		</div>
+
+		<div class="caixa3">
+			<div class="conteudo-titulo">
+				<span class="titulo">PÔR DO SOL</span>
+			</div>
+		</div>
+
+		<div class="conteudo">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus felis, mattis quis cursus non, aliquam a mi. Nullam scelerisque nisl at lorem placerat efficitur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus felis, mattis quis cursus non, aliquam a mi. Nullam scelerisque nisl at lorem placerat efficitur. Integer iaculis turpis quis arcu ultrices ornare. Cras non elit ante. Cras bibendum imperdiet enim, ac tempus metus gravida aliquam. Quisque at ultrices tellus. Praesent faucibus at massa ac mollis. Mauris vel efficitur enim, non varius enim. Nulla non enim est. Nunc sed purus condimentum, pellentesque nisi sed, placerat velit. In quam nibh, pharetra gravida metus eu, fermentum mollis dolor. Nunc lacinia aliquam tristique.
+
+			</p>
+		</div>
+
+		<div class="caixa4">
+			<div class="conteudo-titulo">
+				<span class="titulo">ROTA DA FELICIDADE</span>
+			</div>
+		</div>
+		<div class="conteudo">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus felis, mattis quis cursus non, aliquam a mi. Nullam scelerisque nisl at lorem placerat efficitur. Integer iaculis turpis quis arcu ultrices ornare. Cras non elit ante. Cras bibendum imperdiet enim, ac tempus metus gravida aliquam. Quisque at ultrices tellus. Praesent faucibus at massa ac mollis. Mauris vel efficitur enim, non varius enim. Nulla non enim est. Nunc sed purus condimentum, pellentesque nisi sed, placerat velit. In quam nibh, pharetra gravida metus eu, fermentum mollis dolor. Nunc lacinia aliquam tristique.
+			</p>
+		</div>
+		<div class="caixa5">
+			<div class="conteudo-titulo">
+				<span class="titulo">BANHO DE MAR</span>
+			</div>
+		</div>
+	</body>
+</html>
